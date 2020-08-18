@@ -1,0 +1,46 @@
+.figure{
+    border:1px solid black;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg,red,red 49%,black,black 1%,white,white 49%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ojoIzquierdo{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid white;
+    border-right: 100px solid transparent;
+}
+
+.ojoDerecho{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid white;
+    border-left: 100px solid transparent;
+}
+
+.ojoIzquierdo,
+.ojoDerecho{
+    margin-bottom: 220px;
+}
+
+.eye{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+
+#leftEye{
+    margin-left: 15px;
+}
+
+#rightEye{
+    margin-left: -30px;
+}
